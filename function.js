@@ -1,7 +1,7 @@
 window.function = function(Email) 
 {
 
-  var matched = /^\d{10}$/;
+  var matched = /^\d{12}$/;
 
  if (Email.value.match(matched))
   {
